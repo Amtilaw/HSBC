@@ -1,10 +1,10 @@
 # HSBC Web application | Application web
 
 This application is written with the help of the symfony framework \
-Cette application est développé avec l'aide du framework symfony.
+Cette application est développée avec l'aide du framework symfony.
 ## Prérequis | Dependance
 Your computer need to have the following application for installing this symfony application : \
-Votre ordinateur à besoin des application suivante déjà installé
+Votre ordinateur a besoin des applications suivantes déjà installées
 1) Git , composer, xampp
 
 ## Installation
@@ -47,5 +47,6 @@ php -S 127.0.0.1:9000 -t public
 2) Start your web navigator and put this url : http://127.0.0.1:9000/contact/view
 
 Enjoy!
+
 
 Sinon vous pouvez visiter l'application à l'adresse suivante : http://94.224.78.233/HSBC/public/contact/view
