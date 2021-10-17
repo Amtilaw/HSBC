@@ -32,10 +32,11 @@ php -S 127.0.0.1:9000 -t public
 ### Si vous utilisez Linux
 1) Ouvrez votre terminal
 ```bash
+sudo /opt/lampp/lampp start
 git clone https://github.com/Amtilaw/HSBC.git
 cd HSBC
 chmod +x install.bash
-sudo ./install.bash 
+./install.bash 
 php -S 127.0.0.1:9000 -t public
 ```
 
