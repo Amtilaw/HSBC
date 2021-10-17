@@ -2,20 +2,19 @@
 
 Cette application est développée avec l'aide du framework symfony.
 ## Prérequis | Dependance
-Votre ordinateur a besoin des applications suivantes déjà installées
-1) Git , composer, xampp
+Votre ordinateur a besoin des applications suivantes déjà installées : git, composer, xampp 1) Git , composer, xampp
 
 ## Installation
-### Windows
+### Si vous utilisez Windows
 
- 1) L'application à besoin d'être connecté à une base de donnée mysql 
+1) L’application doit être connectée à une base de données 
  Lancer XAMPP control panel & lancer Apache et MyQSL
 
-  2)Ouvrir l'invité de commande en recherchant "cmd"
+  2)Ouvrez l'invité de commande en recherchant "cmd"
 
 ![Alt text](resourceReadme/WindowsCmdOpen.jpeg?raw=true "CmdSearch")
 
-3) Copier ces commandes dans l'invité commande
+3) Copiez les commandes ci-dessous dans l'invité commande
 
 ```bash
 git clone https://github.com/Amtilaw/HSBC.git
@@ -27,10 +26,10 @@ php bin/console doctrine:migration:migrate
 php -S 127.0.0.1:9000 -t public
 ```
 
-4) Lancer votre navigateur web et entré l'adresse suivante: http://127.0.0.1:9000/contact/view
+4) Lancez votre navigateur web et entrez l'adresse suivante: http://127.0.0.1:9000/contact/view
 
-### Linux
-1) Ouvrer votre terminal
+### Si vous utilisez Linux
+1) Ouvrez votre terminal
 ```bash
 git clone https://github.com/Amtilaw/HSBC.git
 cd HSBC
@@ -39,9 +38,6 @@ sudo ./install.bash # This file contain the same command then Windows --> look 3
 php -S 127.0.0.1:9000 -t public
 ```
 
-2) Lancer votre navigateur web et entré l'adresse suivante: http://127.0.0.1:9000/contact/view
-
-Enjoy!
-
+2) Lancez votre navigateur web et entrez l'adresse suivante: http://127.0.0.1:9000/contact/view
 
 Sinon vous pouvez visiter l'application à l'adresse suivante : http://94.224.78.233/HSBC/public/contact/view
