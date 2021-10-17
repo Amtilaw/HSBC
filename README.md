@@ -35,7 +35,7 @@ php -S 127.0.0.1:9000 -t public
 git clone https://github.com/Amtilaw/HSBC.git
 cd HSBC
 chmod +x install.bash
-sudo ./install.bash # This file contain the same command then Windows --> look 3)
+sudo ./install.bash 
 php -S 127.0.0.1:9000 -t public
 ```
 
