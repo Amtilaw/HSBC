@@ -1,0 +1,25 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Formulaire de contacts{% endblock %}
+
+{% block body %}
+{% form_theme form 'bootstrap_5_layout.html.twig' %}
+
+  {{ form_start(form, {'method': 'POST'}) }}
+    {{ form_errors(form) }}
+
+
+  <div class="mb-3">
+    {{ form_row(form.email) }}
+  </div>
+  <div class="mb-3">
+    {{ form_row(form.name) }}
+  </div>
+  <div class="mb-3">
+    {{ form_row(form.numero) }}
+  </div>
+
+  {{ form_row(form.enregistrer) }}
+{{ form_end(form) }}
+{% endblock %}
+

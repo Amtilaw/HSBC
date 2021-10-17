@@ -1,0 +1,28 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello ContactViewController!{% endblock %}
+
+{% block body %}
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Nom</th>
+      <th scope="col">Email</th>
+      <th scope="col">Numero</th>
+      <th scope="col">Modifier</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for pp in personne %}
+    <tr>
+      <th scope="row">{{loop.index}}</th>
+      <td>{{pp.name}}</td>
+      <td>{{pp.email}}</td>
+      <td>{{pp.numero}}</td>
+      <td><a href="/contact/modif?id={{pp.id}}"><button style="height:20px;width:auto;background-color:green;"></button></a></td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% endblock %}
