@@ -48,4 +48,4 @@ php -S 127.0.0.1:9000 -t public
 
 Enjoy!
 
-Sinon vous pouvez visiter l'application à l'adresse suivante : http://192.168.0.107/HSBC/public/contact/view
+Sinon vous pouvez visiter l'application à l'adresse suivante : http://94.224.78.233/HSBC/public/contact/view
