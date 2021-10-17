@@ -2,7 +2,8 @@
 
 Cette application est développée avec l'aide du framework symfony.
 ## Prérequis | Dependance
-Votre ordinateur a besoin des applications suivantes déjà installées : git, composer, xampp 1) Git , composer, xampp
+Votre ordinateur a besoin des applications suivantes déjà installées : 
+1) Git , composer, xampp
 
 ## Installation
 ### Si vous utilisez Windows
