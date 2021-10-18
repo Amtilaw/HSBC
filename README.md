@@ -21,10 +21,10 @@ Votre ordinateur a besoin des applications suivantes déjà installées :
 git clone https://github.com/Amtilaw/HSBC.git #télécharge l'app sans les bundles
 dir HSBC
 composer install   REM Install les bundles (/vendors)
-php bin/console doctrine:database:create    :: Crée la base de donnée dans mySQL
-php bin/console make:migration              :: Génère une nouvelle migration
-php bin/console doctrine:migration:migrate  :: Execute la nouvelle migration
-php -S 127.0.0.1:9000 -t public             :: Lance le server web en local
+php bin/console doctrine:database:create    REM Crée la base de donnée dans mySQL
+php bin/console make:migration              REM Génère une nouvelle migration
+php bin/console doctrine:migration:migrate  REM Execute la nouvelle migration
+php -S 127.0.0.1:9000 -t public             REM Lance le server web en local
 ```
 
 4) Lancez votre navigateur web et entrez l'adresse suivante: http://127.0.0.1:9000/contact/view
