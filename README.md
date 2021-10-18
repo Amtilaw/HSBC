@@ -18,13 +18,13 @@ Votre ordinateur a besoin des applications suivantes déjà installées :
 3) Copiez les commandes ci-dessous dans l'invité commande
 
 ```bash
-git clone https://github.com/Amtilaw/HSBC.git
+git clone https://github.com/Amtilaw/HSBC.git #télécharge l'app sans les bundles
 dir HSBC
-composer install
-php bin/console doctrine:database:create 
-php bin/console make:migration 
-php bin/console doctrine:migration:migrate 
-php -S 127.0.0.1:9000 -t public
+composer install   REM Install les bundles (/vendors)
+php bin/console doctrine:database:create    :: Crée la base de donnée dans mySQL
+php bin/console make:migration              :: Génère une nouvelle migration
+php bin/console doctrine:migration:migrate  :: Execute la nouvelle migration
+php -S 127.0.0.1:9000 -t public             :: Lance le server web en local
 ```
 
 4) Lancez votre navigateur web et entrez l'adresse suivante: http://127.0.0.1:9000/contact/view
@@ -32,12 +32,12 @@ php -S 127.0.0.1:9000 -t public
 ### Si vous utilisez Linux
 1) Ouvrez votre terminal
 ```bash
-sudo /opt/lampp/lampp start
+sudo /opt/lampp/lampp start         # Lance XAMPP
 git clone https://github.com/Amtilaw/HSBC.git
 cd HSBC
-chmod +x install.bash
-./install.bash 
-php -S 127.0.0.1:9000 -t public
+chmod +x install.bash               # Permission pour l'éxecution du script
+./install.bash                      # Install les bundles & la base de donnée 
+php -S 127.0.0.1:9000 -t public     # Lance le server web en local
 ```
 
 2) Lancez votre navigateur web et entrez l'adresse suivante: http://127.0.0.1:9000/contact/view
