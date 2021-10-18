@@ -18,7 +18,7 @@ Votre ordinateur a besoin des applications suivantes déjà installées :
 3) Copiez les commandes ci-dessous dans l'invité commande
 
 ```bash
-git clone https://github.com/Amtilaw/HSBC.git #télécharge l'app sans les bundles
+git clone https://github.com/Amtilaw/HSBC.git 
 dir HSBC
 composer install   
 php bin/console doctrine:database:create    
