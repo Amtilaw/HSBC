@@ -19,7 +19,7 @@ Votre ordinateur a besoin des applications suivantes déjà installées :
 
 ```bash
 git clone https://github.com/Amtilaw/HSBC.git 
-dir HSBC
+cd HSBC
 composer install   
 php bin/console doctrine:database:create    
 php bin/console make:migration             
